@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultra.web</title>
+    <link rel="shortcut icon" href="./image/ultra.logo.favi.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.cdnfonts.com/css/didact-gothic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./landing.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left-side">
+                <a href="">
+                    <img class="logo" src="./image/ultra.logo.png" alt="">
+                </a>
+                <a href="">
+                    <h1 class="ultra">UltraDev</h1>
+                </a>
+            </div>
+            <ul class="menu-list">
+                <li><a href="#home-section" class="home">Home</a></li>
+                <li><a href="#skills" class="services">Services</a></li>
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+            </ul>
+            <div class="right-side">
+                <a class="view-project" href="#project-section">View project</a>
+                <div class="bars-wrapper"><i class="fa-solid fa-bars"></i></div>
+            </div>
+        </nav>
+        <hr class="header-underline">
+    </header>
+    <section class="hero-section" id="home-section">
+        <div class="hero-div">
+            <h1 class="text">A'Roheem <br> Mubarak</h1>
+            <h3 class="stack">Full stack web developer</h3>
+        </div>
+        <div>
+            <img src="./image/Mubarak-image1.png" class="human-image" alt="image">
+        </div>
+    </section>
+    <strong id="skills" class="skills">Skills</strong>
+    <div class="card">
+        <div class="card-one">
+            <img class="html-img" src="./image/imgi_6_info-html.svg" alt="image">
+            <span class="html-text">HTML</span>
+        </div>
+        <div class="card-two">
+            <img class="css-img" src="./image/imgi_7_info-css.svg" alt="image">
+            <span class="css-text">CSS</span>
+        </div>
+        <div class="card-three">
+            <img class="js-img" src="./image/info-javascript.svg" alt="image">
+            <span class="js-text">JAVASCRIPT</span>
+        </div>
+    </div>
+
+
+    <section class="projects-section" id="project-section">
+        <strong class="projects-heading">Recent Projects</strong>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="./image/colorful-creative-background_1394-992.jpg" alt="Project 1" class="project-image">
+                <h3 class="project-title">Monday Website</h3>
+                <p class="project-description">Website for AI work platform for any kind of work.</p>
+                <a href="./monday.html" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="./image/landing-piggy-image.png" alt="Project 2" class="project-image">
+                <h3 class="project-title">PiggyVest Website</h3>
+                <p class="project-description">Website built for Savings of Money in different ways</p>
+                <a href="./piggy.html" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="./image/laptop.code.jpg" alt="Project 3" class="project-image">
+                <h3 class="project-title">My Blog Website</h3>
+                <p class="project-description">This website shows responsiveness of my work.</p>
+                <a href="./myself.html" class="project-link">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about-section" id="about-section">
+        <div class="about-container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="about-heading">My Info</h2>
+                    <p class="about-description">
+                        I'm A'Roheem Mubarak Anuoluwa, a passionate Full Stack Web Developer with expertise in modern web technologies. 
+                        I specialize in creating responsive, user-friendly websites and applications that deliver exceptional 
+                        user experiences.
+                    </p>
+                    <p class="about-details">
+                        With a strong foundation in HTML, CSS, and JavaScript, I enjoy turning complex problems into simple, 
+                        beautiful, and intuitive designs. My goal is to build web solutions that not only meet but exceed 
+                        client expectations.
+                    </p>
+                    <p class="about-passion">
+                        When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, 
+                        or sharing my knowledge with the developer community. I believe in continuous learning and staying 
+                        updated with the latest industry trends.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="./image/Mubarak-image1.png" alt="A'Roheem Mubarak - Full Stack Developer" class="profile-image">
+                    <div class="cv-download-container">
+                        <a href="./documents/Abdulroheem Mubarak.pdf" class="cv-download-btn" download>
+                            Download My CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="Contact-details" id="contact-section">
+        <div class="contact-form">
+            <form action="" method="get">
+              <h2 class="contact-text">Contact Me</h2>
+              <!-- <label for="firstname">Name</label> -->
+              <input class="name" type="text" placeholder="Name" required>
+              <!-- <label for="Email">Email</label> -->
+              <input class="email" type="Email" placeholder="Enter Email" required>
+              <br><br>
+              <!-- <label for="message">Message</label> -->
+              <input class="message" type="text" placeholder="Message" required>
+              <br><br>
+              <a class="submit-btn" href="">Submit</a>
+            </form>
+
+        </div>
+        <div class="contact-img">
+            <img class="meet-img" src="./image/contact_img1.jpg" alt="">
+        </div>
+    </div>
+    
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="social-links">
+                <a href="https://www.facebook.com/anuoluwa.olamide.779" class="social-link" target="_blank">
+                    <img src="./image/facebook.png" alt="Facebook" class="social-icon">
+                    <span></span>
+                </a>
+                <a href="https://www.instagram.com/anuoluwa10_" class="social-link">
+                    <img src="./image/instagram.png" alt="Instagram" class="social-icon">
+                    <span></span>
+                </a>
+                <a href="https://tiktok.com/@mubarak_cryptonite" class="social-link">
+                    <img src="./image/tik-tok.png" alt="TikTok" class="social-icon">
+                    <span></span>
+                </a>
+                <a href="https://twitter.com/anuoluwa289" class="social-link">
+                    <img src="./image/twitter.png" alt="Twitter" class="social-icon">
+                    <span></span>
+                </a>
+            </div>
+            <!-- <p class="copyright">&copy; 2024 UltraDev. All rights reserved.</p> -->
+            <marquee behavior="" direction="left">&copy; 2025 UltraDev. All rights reserved.</marquee>
+        </div>
+    </footer>
+    
+</body>
+</html>
