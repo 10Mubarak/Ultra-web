@@ -695,6 +695,26 @@ nav{
         font-size: 14px;
     }
 }
+@media (max-width:450px){
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-text {
+        margin-bottom: 20px;
+    }
+
+    .profile-image {
+        width: 200px;
+        height: 200px;
+    }
+}
+
 
 @media (max-width:1300px){
     .Contact-details{
